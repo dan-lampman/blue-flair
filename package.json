@@ -1,0 +1,14 @@
+{
+  "name": "blue-flair",
+  "version": "1.0.0",
+  "description": "cost per view calculation",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "fast-csv": "2.4.1"
+  },
+  "author": "Dan Lampman",
+  "license": "MIT"
+}
