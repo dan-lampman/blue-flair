@@ -1,6 +1,6 @@
  # Solution
 
-Total solution time approximately 40 minutes.
+Total solution time was approximately 40 minutes.
 
 ## Approach
 - Parse both CSVs to arrays (rotations and spots)
