@@ -25,7 +25,7 @@ Total solution time approximately 40 minutes.
 - Iterate through each spot and create buckets for the spot creative name and the rotation-spot.dateString combination
 - For each spot, increment the total number of spend and views for that spot name
 - For each spot, iterate through each rotation and assign the spot to the first rotation that meets the date requirements: spot.date must be greater than or equal to the rotation start and less than or equal to the rotation end. This algorithm will cause spots shown  at 3PM to be grouped into afternoon instead of prime. Unique rotation keys are composed of the rotation name and the dateString from the spot.
-- Once each all the spend and views are added for each unique creative name, divide total spend by total views to get cost per view by creative name and cost per rotation name.
+- Once each all the spend and views are added for each unique creative name, divide total spend by total views to get cost per view by creative name and cost per rotation name. This value is then rounded to two decimal places.
 
 
  ## Assumptions
@@ -38,6 +38,6 @@ Total solution time approximately 40 minutes.
 
  ## Usage
 
- - This solution is written in Javascript and uses Node.
+ - This solution is written in Javascript and uses Node
  - To install the project dependencies (fast-csv): `npm install`
  - To run the solution: `npm start` or `node main.js`
